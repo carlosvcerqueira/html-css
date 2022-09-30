@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: tomato;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+
+            border-radius: 4px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.321);
+            /* 
+                primeiro parametro = deslocamento horizontal
+                segundo parametro = deslocamento vertical
+                terceiro parametro = blur
+                quarto parametro = spred
+            */
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+
+            border-radius: 10px 0px;
+
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.307);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(156, 154, 154);
+        }
+
+        aside > p {
+            text-align: right;
+        }
+
+        footer {
+            background-color: darkslategray;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Int Magazine</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lançamentos Notícias Galeria</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Sneakers</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laudantium exercitationem inventore corrupti, consectetur facilis eligendi mollitia quaerat nulla aspernatur aut recusandae, iste, nisi earum illo sit voluptatum cumque error.
+                </p>
+                <aside>
+                    <p>Artigo escrito por Carlos Cerqueira</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copyDesenvolvidoPorCarlos</p>
+    </footer>
+</body>
+</html>

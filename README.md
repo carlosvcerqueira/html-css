@@ -10,3 +10,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
+
+## 💻 Sobre o curso
+
+Curso dividido em 5 módulos de 40 horas cada com certificação

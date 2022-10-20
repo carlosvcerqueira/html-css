@@ -1,4 +1,12 @@
-# html-css
- Curso de HtML5 e CSS3 do CursoemVideo
+<h1 align="center"> Curso HTML e CSS - CursoemVideo</h1>
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
+<p align="center">
+Curso gratuito, promovido pelo Curso em Video para ensino de tecnologias WEB.
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript

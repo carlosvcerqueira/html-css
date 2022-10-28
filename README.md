@@ -6,7 +6,7 @@ Curso gratuito, promovido pelo Curso em Video para ensino de tecnologias WEB.
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse curso foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript

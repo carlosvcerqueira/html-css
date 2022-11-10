@@ -8,16 +8,34 @@
 </head>
 <body>
     <h1>Select, datalist, textarea</h1>
-    <form action="">
+    <form action="" method="post">
         <p>
             <label for="iest">Estado:</label>
             <select name="estado" id="iest">
-                <optgroup label="Reigão X">
-                    <option value="SP">São Paulo</option>
+                <option value="" selected>-- Escolha --</option>
+                <optgroup label="Reigão Sul">
+                    <option value="SP">Paraná</option>
                     <option value="SC">Santa Catarina</option>
+                    <option value="RJ">Rio Grande do Sul</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
                     <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
                 </optgroup>
             </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="idprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+        <p><label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10">Sua mensagem...</textarea>
         </p>
         <p>
             <button type="reset">Limpar</button>

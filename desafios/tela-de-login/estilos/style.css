@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 
+
+Paleta de cores
+Verde: #49a09d
+Lilás: #5f2c82
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#login {
+    width: 80vw;
+    height: 80vh;
+    background-color: lightcoral;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    margin: auto;
+    margin: 10px;
+}
+
+button:hover {
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
